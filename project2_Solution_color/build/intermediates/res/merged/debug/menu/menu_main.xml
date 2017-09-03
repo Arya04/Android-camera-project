@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <item
+        android:title="Reset"
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="1"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+    <item
+        android:title="Black and white"
+        android:id="@+id/b_w"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="200"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+    <item
+        android:title="Colorize"
+        android:id="@+id/make_Color"
+        android:icon="@android:drawable/ic_menu_view"
+        android:orderInCategory="300"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="400"
+        android:visible="true"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="500"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
+
